@@ -43,12 +43,13 @@ Check out the live version of the portfolio: https://sivasaiklu.github.io/PortFo
 ## 📸 Screenshots
 
 ### Certifications Section
-![Certifications](![image](https://github.com/user-attachments/assets/be364812-debf-4525-a15f-fc5ba4bbf977)
-)
+![image](https://github.com/user-attachments/assets/1f106fbc-d6c0-4e8f-91ba-28e31f06d9d3)
+
+
 
 ### Projects Section
-![Projects](![image](https://github.com/user-attachments/assets/f42bb6f4-5a0e-4760-aafb-972d6b7123ab)
-)
+![image](https://github.com/user-attachments/assets/a70704e1-2905-4464-89f6-c9fbc883b8c8)
+
 
 ## 🔗 Links
 
