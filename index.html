@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" type="image/x-icon" href="contents/profile-pic-icon.png">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"> <img  src="./contents/profile-pic-icon.png" alt="profile icon" class="icon" />  Sivasai Nukala</div> 
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sivasai Nukala</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+          <li><a href="#achievements" onclick="toggleMenu()">Achievements</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./contents/about-pic.jpg" alt="Sivasai Nukala profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sivasai Nukala</h1>
+        <p class="section__text__p2">Full-Stack Developer with a Passion for Cloud Computing and Software Development</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./contents/Sivasaikumar_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./contents/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/sivasainukala16/', '_blank')"
+            />
+          <img
+            src="./contents/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/Sivasaiklu', '_blank')"
+            />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./contents/profile-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./contents/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./contents/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech CSE Student at KL University  Class of 2026<br />
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                I am a pre-final year Computer Science student at KL University specializing in DevOps and cloud computing. 
+                Passionate about data analysis and problem-solving, I’ve solved 1,000+ problems on CodeChef. 
+                As an Open Source Contributor at GirlScript Summer of Code 2024, I collaborated on impactful projects, 
+                enhancing my coding and teamwork skills. Currently seeking internship opportunities to apply my expertise and 
+                contribute to innovative projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Java</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>C</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools</h2>
+            <div class="article-container">
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>GIT</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Power BI</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Netlify</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+      
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frameworks</h2>
+            <div class="article-container">
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Reactjs</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Django</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technologies</h2>
+            <div class="article-container">
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>MySQL</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>MongoDB</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+      
+          <div class="details-container">
+            <h2 class="experience-sub-title">Cloud & Others</h2>
+            <div class="article-container">
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>AWS Services</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./contents/checkmark.png" alt="Skill icon" class="icon" />
+                <div>
+                  <h3>Oracle Cloud Basics</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./contents/gitexp.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">GitHub Profile Explorer</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Sivasaiklu/github-user-finder', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://youtu.be/VFyHJuRJMAM', '_blank')"
+              >
+                YouTube Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./contents/pdf.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">PDF Merger Application</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Sivasaiklu/pdf-merger-app', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://pdfmergerbysivasai.netlify.app/', '_blank')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./contents/cms.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Online Contact Management System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Sivasaiklu/cms_ep_project', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://youtu.be/e6RcO5w2_0k', '_blank')"
+              >
+                YouTube Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Certifications</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="certifications-row">
+                    <!-- Certification 1 -->
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img
+                                src="./contents/aws-cp.png"
+                                alt="AWS Cloud Practitioner"
+                                class="certification-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title certification-title">
+                            AWS Certified Cloud Practitioner
+                        </h2>
+                        <div class="btn-container">
+                            <button
+                                class="btn btn-color-2 certification-btn"
+                                onclick="window.open('https://www.credly.com/badges/3b33ffd5-2ca2-4569-822c-d45f7de5af70/public_url', '_blank')"
+                            >
+                                View Certification
+                            </button>
+                        </div>
+                    </div>
+    
+                    <!-- Certification 2 -->
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img
+                                src="./contents/redhat.png"
+                                alt="Red Hat Developer"
+                                class="certification-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title certification-title">
+                            Red Hat Certified Enterprise Application Developer
+                        </h2>
+                        <div class="btn-container">
+                            <button
+                                class="btn btn-color-2 certification-btn"
+                                onclick="window.open('https://www.credly.com/badges/72c5a9fb-9b87-4951-a6e1-54819f0e6f64/public_url', '_blank')"
+                            >
+                                View Certification
+                            </button>
+                        </div>
+                    </div>
+    
+                    <!-- Certification 3 -->
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img
+                                src="./contents/aws-dva.png"
+                                alt="AWS Developer Associate"
+                                class="certification-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title certification-title">
+                            AWS Certified Developer Associate
+                        </h2>
+                        <div class="btn-container">
+                            <button
+                                class="btn btn-color-2 certification-btn"
+                                onclick="window.open('https://www.credly.com/badges/6a6636cc-162f-4892-8223-ea886f21d943/public_url', '_blank')"
+                            >
+                                View Certification
+                            </button>
+                        </div>
+                    </div>
+    
+                    <!-- Certification 4 -->
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img
+                                src="./contents/salesforce.png"
+                                alt="AWS Solutions Architect"
+                                class="certification-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title certification-title">
+                            Salesforce AI Associate
+                        </h2>
+                        <div class="btn-container">
+                            <button
+                                class="btn btn-color-2 certification-btn"
+                                onclick="window.open('https://www.salesforce.com/trailblazer/profile', '_blank')"
+                            >
+                                View Certification
+                            </button>
+                        </div>
+                    </div>
+    
+                    <!-- Certification 5 -->
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img
+                                src="./contents/oracle.png"
+                                alt="Certification 5"
+                                class="certification-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title certification-title">
+                            Oracle Cloud Infrastructure 2024 Certified Foundations Associate
+                        </h2>
+                        <div class="btn-container">
+                            <button
+                                class="btn btn-color-2 certification-btn"
+                                onclick="window.open('https://catalog-education.oracle.com/ords/certview/sharebadge?id=D1FD1E484A4A8101947D20589E7B599BAD1FA25CA67080A5BA24329B50498BBD', '_blank')"
+                            >
+                                View Certification
+                            </button>
+                        </div>
+                    </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      
+      <section id="achievements">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Achievements</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./contents/codechef.jpg"
+                            alt="CodeChef"
+                            class="achievement-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title achievement-title">
+                        Problem Solver Diamond Badge by CodeChef
+                    </h2>
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./contents/aviatrix.png"
+                            alt="Aviatrix"
+                            class="achievement-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title achievement-title">
+                        ACE Multicloud Network Associate
+                    </h2>
+                </div>
+    
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./contents/GSSoC24_Stats.png"
+                            alt="Gssoc"
+                            class="achievement-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title achievement-title">
+                        GSSoC'24 Extended Achievements
+                    </h2>
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./contents/100Days.png"
+                            alt="LeetCode"
+                            class="achievement-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title achievement-title">
+                        LeetCode 100 days challenge
+                    </h2>
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./contents/postman.png"
+                            alt="Postman"
+                            class="achievement-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title achievement-title">
+                        Postman API Fundamentals Student Expert
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./contents/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">sivasainookala@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>
+        Copyright &#169; <span id="current-year"></span> Sivasai Nukala
+        <img width="5px" height="5px" src="./contents/hearts.png" alt="love icon" class="icon" />
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
