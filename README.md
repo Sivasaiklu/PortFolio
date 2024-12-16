@@ -38,7 +38,7 @@ A responsive and interactive portfolio website showcasing certifications, projec
 
 ## 🌟 Live Demo
 
-Check out the live version of the portfolio: [[Insert your website link here]](https://sivasaiklu.github.io/PortFolio/)
+Check out the live version of the portfolio: https://sivasaiklu.github.io/PortFolio/
 
 ## 📸 Screenshots
 
@@ -52,8 +52,8 @@ Check out the live version of the portfolio: [[Insert your website link here]](h
 
 ## 🔗 Links
 
-- **Portfolio Repository**: [GitHub Repo Link](https://github.com/Sivasaiklu/PortFolio)
-- **Live Demo**: [Portfolio Website]([https://yourportfolio.com](https://sivasaiklu.github.io/PortFolio/))
+- **Portfolio Repository**: https://github.com/Sivasaiklu/PortFolio
+- **Live Demo**: https://yourportfolio.com](https://sivasaiklu.github.io/PortFolio
 
 ## 📜 License
 
