@@ -54,7 +54,7 @@ Check out the live version of the portfolio: https://sivasaiklu.github.io/PortFo
 ## 🔗 Links
 
 - **Portfolio Repository**: https://github.com/Sivasaiklu/PortFolio
-- **Live Demo**: https://yourportfolio.com](https://sivasaiklu.github.io/PortFolio
+- **Live Demo**: https://sivasaiklu.github.io/PortFolio
 
 ## 📜 License
 
