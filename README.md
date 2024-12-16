@@ -42,9 +42,20 @@ Check out the live version of the portfolio: https://sivasaiklu.github.io/PortFo
 
 ## 📸 Screenshots
 
+### About Section
+![image](https://github.com/user-attachments/assets/99800a2c-7a75-485d-b26f-3607a9e5b81a)
+
+
+### Skills Section
+![image](https://github.com/user-attachments/assets/1d342ade-f2a7-4947-9159-afdd11bf59f9)
+
+
 ### Certifications Section
 ![image](https://github.com/user-attachments/assets/1f106fbc-d6c0-4e8f-91ba-28e31f06d9d3)
 
+
+### Achievements Section
+![image](https://github.com/user-attachments/assets/c10dbcf1-22d8-44c2-b8e7-e702c5cb03f8)
 
 
 ### Projects Section
